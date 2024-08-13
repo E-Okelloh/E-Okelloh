@@ -1,5 +1,5 @@
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/praise-godwins) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/praise_godwins)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erick-okelloh/) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://www.linkedin.com/in/erick-okelloh/)
 
 ---
 # 💻 Tech Stack:
@@ -14,7 +14,7 @@
 <center>
   <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
     <div>
-      <img width="400px" align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=godwins3&theme=vision-friendly-dark&count_private=true"  />
+      <img width="400px" align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=E-Okelloh&theme=vision-friendly-dark&count_private=true"  />
     </div>
   </div>
 </center>
@@ -24,7 +24,6 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@Just_Athena/73b1ebb9-37bb-4246-8782-34f4db1f550f.png" /></a>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=godwins3&icon=2&color=3)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=Okelloh3&icon=2&color=3)](https://visitcount.itsvg.in)
