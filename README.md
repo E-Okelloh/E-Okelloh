@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am a smart contract developer <br>I am currently majoring in NFTs<br>I love Blockchain Technologies<br>Fun fact I love hands-on<br>
+I am a smart contract developer
 
 
 ## 🌐 Socials:
