@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am a third year Information Technology student at Meru University, passionate about exploring the realms Blockchain(Smart contract development, DeFi, Security Research), FinTech and building robust applications.
+I am a third year Information Technology student at Meru University, passionate about exploring the realms Blockchain(Smart contract development, DeFi,Web3 Security Research), FinTech and building robust applications.
 
 
 ## 🌐 Socials:
