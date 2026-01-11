@@ -1,5 +1,9 @@
 # 💫 About Me:
-I am a third year Information Technology student at Meru University, passionate about exploring the realms Blockchain(Smart contract development, DeFi, Security Research), FinTech and building robust applications.
+I’m a problem-driven software builder focused on designing secure, reliable, and scalable systems. My work centers around Blockchain (smart contracts, DeFi, security researcher) and FinTech, where correctness, performance, and trust are critical.
+
+I approach engineering from a systems perspective—breaking complex problems into clear components, understanding how data flows, where failures occur, and how to design for resilience from the start. I care deeply about clean architecture, auditability, and long-term maintainability, especially in environments where code directly handles value.
+
+Beyond building, I enjoy analyzing system failures, optimizing backend logic, and improving developer workflows. I value clarity over complexity, strong fundamentals over shortcuts, and solutions that scale both technically and operationally.
 
 
 ## 🌐 Socials:
