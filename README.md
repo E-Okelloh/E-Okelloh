@@ -56,7 +56,7 @@ Currently focused on creating systems that **automate financial processes, detec
 
 ### 🔥 Streak Stats
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOURUSERNAME&theme=tokyonight" />
+  <img src="[(https://streak-stats.demolab.com?user=E-Okelloh&theme=dark)](https://git.io/streak-stats)/>
 </p>
 
 ---
