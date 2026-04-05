@@ -1,7 +1,7 @@
-<h1 align="center">Hey, I'm Erick AKA 0k3ll0h 👋</h1>
+<h1 align="center">Hey, I'm 0k3ll0h 👋</h1>
 
 <p align="center">
-  <em>Building on-chain. Thinking decentralized. Shipping daily.</em>
+  <em>Building on-chain. Thinking decentralized. Shipping Constantly.</em>
 </p>
 
 <p align="center">
