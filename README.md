@@ -17,7 +17,7 @@
 ```text
 🔭  Currently working on   → A personal Web3 project (stealth mode 👀)
 🤝  Looking to collaborate → Open source projects — DeFi, dApps & Web3 tooling
-🤲  Looking for help with  → [e.g. smart contract auditing / ZK proofs]
+🤲  Looking for help with  → Smart contract auditing / ZK proofs
 🌱  Currently learning     → Rust 🦀 & Kotlin — leveling up one syntax at a time
 💬  Ask me about           → Blockchain, cloud architecture, Web3 UX, open source
 ⚡  Fun fact               → I love contributing to projects that push frontiers
@@ -42,7 +42,6 @@
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
 
-
 **Web3 & Blockchain**
 
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=Ethereum&logoColor=white)
@@ -55,6 +54,12 @@
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat&logo=openzeppelin&logoColor=white)
 ![The Graph](https://img.shields.io/badge/The%20Graph-6747ED?style=flat&logo=thegraph&logoColor=white)
 ![MetaMask](https://img.shields.io/badge/MetaMask-E2761B?style=flat&logo=metamask&logoColor=white)
+
+**Backend & Runtime**
+
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
 
 **Cloud & DevOps**
 
@@ -74,8 +79,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=E-Okelloh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=E-Okelloh&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=E-Okelloh&theme=tokyonight" height="150"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=E-Okelloh&theme=tokyonight" height="150"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=E-Okelloh&theme=tokyonight"/>
 </p>
 
 ---
