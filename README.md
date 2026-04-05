@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=flat&logo=Twitter&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:you@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
+  <a href="https://x.com/0k3ll0h"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=flat&logo=Twitter&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/erick-okelo"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:eouma359@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
 </p>
 
 ---
@@ -20,7 +20,7 @@
 🤲  Looking for help with  → [e.g. smart contract auditing / ZK proofs]
 🌱  Currently learning     → Rust 🦀 & Kotlin — leveling up one syntax at a time
 💬  Ask me about           → Blockchain, cloud architecture, Web3 UX, open source
-⚡  Fun fact               → [Something interesting about you]
+⚡  Fun fact               → I love contributing to projects that push frontiers
 ```
 
 ---
