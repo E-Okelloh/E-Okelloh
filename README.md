@@ -1,4 +1,4 @@
-<h1 align="center">Hey, I'm [Your Name] 👋</h1>
+<h1 align="center">Hey, I'm Erick AKA 0k3ll0h 👋</h1>
 
 <p align="center">
   <em>Building on-chain. Thinking decentralized. Shipping daily.</em>
@@ -88,7 +88,7 @@
 ### 🔥 Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=E-Okelloh&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
