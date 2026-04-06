@@ -15,12 +15,12 @@
 ### 🧭 About Me
 
 ```text
-🔭  Currently working on   → A personal Web3 project (stealth mode 👀)
-🤝  Looking to collaborate → Open source projects — DeFi, dApps & Web3 tooling
-🤲  Looking for help with  → Smart contract auditing / ZK proofs
-🌱  Currently learning     → Rust 🦀 & Kotlin — leveling up one syntax at a time
-💬  Ask me about           → Blockchain, cloud architecture, Web3 UX, open source
-⚡  Fun fact               → I love contributing to projects that push frontiers
+  Currently working on   → A personal Web3 project (stealth mode 👀)
+  Looking to collaborate → Open source projects — DeFi, dApps & Web3 tooling
+  Looking for help with  → Smart contract auditing / ZK proofs
+  Currently learning     → Rust 🦀 & Kotlin — leveling up one syntax at a time
+  Ask me about           → Blockchain, cloud architecture, Web3 UX, open source
+  Fun fact               → I love contributing to projects that push frontiers
 ```
 
 ---
