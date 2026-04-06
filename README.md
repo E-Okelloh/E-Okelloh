@@ -15,7 +15,7 @@
 ### 🧭 About Me
 
 ```text
-  Currently working on   → A personal Web3 project (stealth mode 👀)
+  ### Currently working on   → A personal Web3 project (stealth mode 👀)
   Looking to collaborate → Open source projects — DeFi, dApps & Web3 tooling
   Looking for help with  → Smart contract auditing / ZK proofs
   Currently learning     → Rust 🦀 & Kotlin — leveling up one syntax at a time
