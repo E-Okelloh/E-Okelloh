@@ -38,7 +38,7 @@
 ![Soroban](https://img.shields.io/badge/Soroban-Smart%20Contracts-3E1BDB?style=flat&logoColor=white)
 ![Stellar](https://img.shields.io/badge/Stellar-%23090909.svg?style=flat&logo=stellar&logoColor=white)
 
-> Building Soroban smart contracts in Rust on Stellar — focusing on DeFi primitives, cross-border payment logic, and token issuance.
+> Exploring Soroban smart contracts in Rust on Stellar — focusing on DeFi primitives, cross-border payment logic, and token issuance.
 
 **Sui / Move**
 ![Move](https://img.shields.io/badge/Move-Language-4A90D9?style=flat&logoColor=white)
@@ -46,12 +46,6 @@
 ![Sui SDK](https://img.shields.io/badge/Sui%20SDK-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 
 > Developing Move smart contracts on Sui — leveraging the object-centric model, shared objects, and capability patterns. Exploring the Sui SDK for dApp frontends.
-
-**EVM**
-![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=flat&logo=solidity&logoColor=white)
-![Vyper](https://img.shields.io/badge/Vyper-3c3c3d?style=flat&logo=ethereum&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-yellow?style=flat&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-%23000000.svg?style=flat&logoColor=white)
 
 ---
 
