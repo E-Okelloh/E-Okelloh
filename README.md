@@ -1,16 +1,29 @@
-<h1 align="center">Hey, I'm 0k3ll0h 👋</h1>
-<p align="center">
-  <em>Building on-chain. Thinking decentralized. Shipping Constantly.</em>
-</p>
-<p align="center">
-  <a href="https://x.com/0k3ll0h"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=flat&logo=Twitter&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/erick-okelo"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:eouma359@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9945FF,100:14F195&height=200&section=header&text=0k3ll0h&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Building%20on-chain.%20Thinking%20decentralized.%20Shipping%20Constantly.&descAlignY=58&descAlign=50" width="100%"/>
+</div>
+
+<div align="center">
+  <a href="https://x.com/0k3ll0h">
+    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/>
+  </a>
+  <a href="https://linkedin.com/in/erick-okelo">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:eouma359@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=E-Okelloh&style=for-the-badge&color=9945FF&label=PROFILE+VIEWS" alt="Profile Views"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=9945FF&center=true&vCenter=true&random=false&width=680&lines=Solana+%7C+Stellar+%7C+Sui+Developer+%E2%9B%93;Rust+%F0%9F%A6%80+%7C+Move+%7C+Anchor+Framework;Building+DeFi+Primitives+%26+dApps;Open+Source+Contributor;The+future+is+decentralized." alt="Typing SVG"/>
+</div>
 
 ---
 
-### 🧭 About Me
+## 🧭 About Me
 
 ```text
   Currently working on   → A personal Web3 project (stealth mode 👀)
@@ -23,91 +36,145 @@
 
 ---
 
-### ⛓️ Blockchain & On-Chain Development
+## ⛓️ Blockchain & On-Chain Development
 
-**Solana**
-![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![Anchor](https://img.shields.io/badge/Anchor-Framework-9945FF?style=flat&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-%239945FF.svg?style=flat&logo=solana&logoColor=white)
-![SPL Tokens](https://img.shields.io/badge/SPL%20Tokens-9945FF?style=flat&logoColor=white)
+<table>
+<tr>
+<td width="33%" valign="top">
 
-> Writing native Solana programs in Rust with the Anchor framework. Building SPL token programs, PDAs, and on-chain logic with low-level account management.
+### Solana
+![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white)
+![Anchor](https://img.shields.io/badge/Anchor-9945FF?style=flat-square&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
+![SPL](https://img.shields.io/badge/SPL%20Tokens-9945FF?style=flat-square)
 
-**Stellar**
-![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![Soroban](https://img.shields.io/badge/Soroban-Smart%20Contracts-3E1BDB?style=flat&logoColor=white)
-![Stellar](https://img.shields.io/badge/Stellar-%23090909.svg?style=flat&logo=stellar&logoColor=white)
+Native Solana programs in Rust with Anchor. SPL token programs, PDAs, and low-level account management.
 
-> Exploring Soroban smart contracts in Rust on Stellar — focusing on DeFi primitives, cross-border payment logic, and token issuance.
+</td>
+<td width="33%" valign="top">
 
-**Sui / Move**
-![Move](https://img.shields.io/badge/Move-Language-4A90D9?style=flat&logoColor=white)
-![Sui](https://img.shields.io/badge/Sui-Move-6FBCF0?style=flat&logoColor=white)
-![Sui SDK](https://img.shields.io/badge/Sui%20SDK-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+### Stellar / Soroban
+![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white)
+![Soroban](https://img.shields.io/badge/Soroban-3E1BDB?style=flat-square&logoColor=white)
+![Stellar](https://img.shields.io/badge/Stellar-090909?style=flat-square&logo=stellar&logoColor=white)
 
-> Developing Move smart contracts on Sui — leveraging the object-centric model, shared objects, and capability patterns. Exploring the Sui SDK for dApp frontends.
+Soroban smart contracts in Rust — DeFi primitives, cross-border payment logic, and token issuance.
 
----
+</td>
+<td width="33%" valign="top">
 
-### 🛠️ Tech Stack
+### Sui / Move
+![Move](https://img.shields.io/badge/Move-4A90D9?style=flat-square&logoColor=white)
+![Sui](https://img.shields.io/badge/Sui-6FBCF0?style=flat-square&logoColor=white)
+![Sui SDK](https://img.shields.io/badge/Sui%20SDK-007ACC?style=flat-square&logo=typescript&logoColor=white)
 
-**Languages**
-![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![Move](https://img.shields.io/badge/Move-Language-4A90D9?style=flat&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=flat&logo=solidity&logoColor=white)
-![Vyper](https://img.shields.io/badge/Vyper-3c3c3d?style=flat&logo=ethereum&logoColor=white)
+Move smart contracts on Sui — object-centric model, shared objects, capability patterns, and Sui SDK dApp frontends.
 
-**Rust Backend**
-![Actix Web](https://img.shields.io/badge/Actix%20Web-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![Axum](https://img.shields.io/badge/Axum-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![Tokio](https://img.shields.io/badge/Tokio-Async%20Runtime-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![SQLx](https://img.shields.io/badge/SQLx-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
-![SeaORM](https://img.shields.io/badge/SeaORM-ORM-%23316192.svg?style=flat&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-Tonic-%23244c5a.svg?style=flat&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
-
-**Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
-
-**Currently Leveling Up**
-![Rust](https://img.shields.io/badge/Rust%20(Advanced)-%23000000.svg?style=flat&logo=rust&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=flat&logo=kotlin&logoColor=white)
+</td>
+</tr>
+</table>
 
 ---
 
-### 📊 GitHub Stats
+## 🛠️ Tech Stack
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=E-Okelloh&theme=tokyonight" height="150"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=E-Okelloh&theme=tokyonight" height="150"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=E-Okelloh&theme=tokyonight"/>
-</p>
+### Languages
+![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Move](https://img.shields.io/badge/Move-4A90D9?style=for-the-badge&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
+![Vyper](https://img.shields.io/badge/Vyper-3c3c3d?style=for-the-badge&logo=ethereum&logoColor=white)
+
+### Rust Backend
+![Actix Web](https://img.shields.io/badge/Actix%20Web-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Axum](https://img.shields.io/badge/Axum-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Tokio](https://img.shields.io/badge/Tokio-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![SQLx](https://img.shields.io/badge/SQLx-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![SeaORM](https://img.shields.io/badge/SeaORM-%23316192.svg?style=for-the-badge&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC%20%2F%20Tonic-%23244c5a.svg?style=for-the-badge&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### Currently Leveling Up
+![Rust Advanced](https://img.shields.io/badge/Rust%20(Advanced)-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![ZK Proofs](https://img.shields.io/badge/ZK%20Proofs-blueviolet?style=for-the-badge&logoColor=white)
 
 ---
 
-### 🔥 Streak
+## 🏆 GitHub Trophies
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=E-Okelloh&theme=tokyonight&hide_border=true"/>
-</p>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=E-Okelloh&theme=tokyonight&no-frame=true&no-bg=false&margin-w=6&column=7" width="100%"/>
+</div>
 
 ---
 
-<p align="center">
-  <em>"The future is decentralized — and it's written in Rust."</em>
-</p>
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=E-Okelloh&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=E-Okelloh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=E-Okelloh&theme=tokyonight" width="100%"/>
+</div>
+
+---
+
+## 🔥 Streak
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=E-Okelloh&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"/>
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=E-Okelloh&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/E-Okelloh/E-Okelloh/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/E-Okelloh/E-Okelloh/output/github-contribution-grid-snake.svg"/>
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/E-Okelloh/E-Okelloh/output/github-contribution-grid-snake.svg"/>
+  </picture>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14F195,100:9945FF&height=120&section=footer" width="100%"/>
+</div>
+
+<div align="center">
+  <em>"The future is decentralized — and it's written in Rust." 🦀</em>
+</div>
