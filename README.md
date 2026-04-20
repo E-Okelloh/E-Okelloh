@@ -25,14 +25,26 @@
 
 ## 🧭 About Me
 
-```text
-  Currently working on   → A personal Web3 project (stealth mode 👀)
-  Looking to collaborate → Open source projects — DeFi, dApps & Web3 tooling
-  Looking for help with  → Smart contract auditing / ZK proofs
-  Currently learning     → Rust 🦀 & Kotlin — leveling up one syntax at a time
-  Ask me about           → Blockchain, cloud architecture, Web3 UX, open source
-  Fun fact               → I love contributing to projects that push frontiers
-```
+<table>
+<tr>
+<td width="55%" valign="top">
+
+I'm **Erick Okello** — a blockchain & backend engineer obsessed with building the decentralized future. I write **Rust** by day, think in **PDAs and smart contracts** by night, and ship things that live on-chain.
+
+- 🔭 **Currently building** → A stealth-mode Web3 project (coming soon)
+- 🤝 **Open to collaborate** → DeFi protocols, dApps, open-source Web3 tooling
+- 🧩 **Deep diving into** → ZK proofs & smart contract security auditing
+- 📚 **Leveling up** → Advanced Rust patterns + Kotlin for mobile/backend
+- ☁️ **Background in** → Cloud architecture (AWS), distributed systems & DevOps
+- 💬 **Ask me about** → Solana, Anchor, on-chain UX, open source contribution
+- ⚡ **Fun fact** → I believe the best code is the code that never needs to be explained
+
+</td>
+<td width="45%" align="center" valign="top">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320" alt="Coding gif"/>
+</td>
+</tr>
+</table>
 
 ---
 
