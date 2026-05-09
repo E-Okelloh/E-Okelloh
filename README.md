@@ -188,5 +188,5 @@ Move smart contracts on Sui — object-centric model, shared objects, capability
 </div>
 
 <div align="center">
-  <em>"The future is decentralized — and it's written in Rust." 🦀</em>
+  <em></em>
 </div>
