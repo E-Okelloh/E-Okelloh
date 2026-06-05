@@ -1,4 +1,4 @@
-```md
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E293B&height=220&section=header&text=Erick%20Okello&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Blockchain%20Infrastructure%20%7C%20Fintech%20Systems&descAlignY=58&descAlign=50" width="100%"/>
 </div>
@@ -162,7 +162,7 @@ Always open to collaborating with engineers building meaningful infrastructure.
 
 > Great engineering is invisible.
 > 
-> The best systems feel simple because the complexity was handled correctly.
+> The best systems fail simple because the complexity was handled correctly.
 
 ---
 
