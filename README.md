@@ -162,12 +162,11 @@ Always open to collaborating with engineers building meaningful infrastructure.
 
 > Great engineering is invisible.
 > 
-> The best systems fail simple because the complexity was handled correctly.
+> The best systems feel simple because the complexity was handled correctly.
 
 ---
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E293B,100:0F172A&height=120&section=footer"/>
 </div>
-```
 
