@@ -25,7 +25,6 @@ My work focuses on:
 - payment and financial infrastructure
 - scalable APIs & event-driven systems
 - open-source engineering
-- developer experience tooling
 
 I care deeply about reliability, security, system design, and shipping software that survives real-world usage.
 
@@ -49,7 +48,6 @@ I care deeply about reliability, security, system design, and shipping software 
 - TypeScript
 - Axum / Actix
 - PostgreSQL
-- Redis
 - gRPC / REST APIs
 - Async systems with Tokio
 - Event-driven architectures
