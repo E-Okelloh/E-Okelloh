@@ -146,6 +146,13 @@ Always open to collaborating with engineers building meaningful infrastructure.
 
 ---
 
+## 📊 Weekly Coding Stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ## Contribution Activity
 
 <div align="center">
