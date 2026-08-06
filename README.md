@@ -1,177 +1,140 @@
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E293B&height=220&section=header&text=Erick%20Okello&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Blockchain%20Infrastructure%20%7C%20Fintech%20Systems&descAlignY=58&descAlign=50" width="100%"/>
-</div>
-
 <div align="center">
 
-[![Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/0k3ll0h)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erick-okelo)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eouma359@gmail.com)
-
-<img src="https://komarev.com/ghpvc/?username=E-Okelloh&style=for-the-badge&color=0F172A&label=PROFILE+VIEWS"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:050816,100:0B1020&text=Erick%20Okello&fontSize=55&fontColor=00F5FF&animation=fadeIn&fontAlignY=38&desc=Building%20Financial%20Infrastructure&descAlignY=58&descSize=20"/>
 
 </div>
 
----
+<p align="center">
 
-# Software Engineer • Blockchain Infrastructure • Fintech Systems
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=Blockchain+Infrastructure;Distributed+Systems;Rust+Engineer;Backend+Systems;Open+Source"/>
 
-I build distributed systems, smart contract infrastructure, backend services, and developer tooling across blockchain and fintech ecosystems.
+</p>
 
-My work focuses on:
-- high-performance backend systems
-- on-chain protocols & smart contracts
-- payment and financial infrastructure
-- scalable APIs & event-driven systems
-- open-source engineering
+<p align="center">
 
-I care deeply about reliability, security, system design, and shipping software that survives real-world usage.
+<a href="https://x.com/0k3ll0h">
+<img src="https://img.shields.io/badge/X-black?style=flat-square&logo=x"/>
+</a>
 
----
+<a href="https://linkedin.com/in/erick-okelo">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin"/>
+</a>
 
-## Core Engineering Areas
+<a href="mailto:eouma359@gmail.com">
+<img src="https://img.shields.io/badge/Email-white?style=flat-square&logo=gmail"/>
+</a>
 
-### Blockchain Engineering
-- Solana / Anchor
-- Stellar Soroban
-- Sui / Move
-- Smart contract architecture
-- Token protocols & DeFi primitives
-- Wallet integrations & transaction pipelines
-- On-chain indexing & event processing
-- Smart contract testing and security practices
-
-### Backend & Distributed Systems
-- Rust
-- Python
-- TypeScript
-- Axum / Actix
-- PostgreSQL
-- gRPC / REST APIs
-- Async systems with Tokio
-- Event-driven architectures
-- Queue-based processing systems
-
-### Fintech Infrastructure
-- Payment systems
-- Transaction processing
-- Ledger design patterns
-- API integrations
-- Financial automation workflows
-- Reconciliation systems
-- Cross-border transaction flows
-
-### Cloud & DevOps
-- Docker
-- Kubernetes
-- GitHub Actions
-- CI/CD pipelines
-- Linux systems
-- Observability & monitoring
-- Infrastructure automation
+</p>
 
 ---
 
-## Current Focus
+# Building the infrastructure behind modern financial systems.
 
-- Building decentralized financial infrastructure
-- Contributing to open-source blockchain tooling
-- Advanced Rust systems programming
-- Smart contract security research
-- Scalable fintech backend architecture
-- Zero-knowledge systems & cryptographic primitives
+I build high-performance backend systems, blockchain protocols, payment infrastructure and developer tooling.
 
 ---
 
-## Open Source
+## Selected Work
 
-I actively contribute to open-source projects and enjoy collaborating on:
-- blockchain infrastructure
-- developer tooling
-- backend frameworks
-- fintech systems
-- protocol engineering
-- OSS documentation & DX improvements
-
-Always open to collaborating with engineers building meaningful infrastructure.
+| Project | Description |
+|----------|-------------|
+| **African Payment Aggregator** | Multi-provider payment orchestration across Africa |
+| **PesaText** | SMS powered blockchain financial assistant |
+| **SEP-41 Token** | Stellar token implementation |
+| **No Loss Auction** | Smart contract auction protocol |
+| **AI Meeting Assistant** | AI powered meeting automation |
 
 ---
 
-## Tech Stack
+## Stack
 
-### Languages
+<p align="center">
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Move](https://img.shields.io/badge/Move-4A90D9?style=for-the-badge)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+<img src="https://skillicons.dev/icons?i=rust,ts,python,postgres,redis,docker,kubernetes,linux,git,github,vscode"/>
 
-### Backend & Infrastructure
+</p>
 
-![Axum](https://img.shields.io/badge/Axum-000000?style=for-the-badge)
-![Actix](https://img.shields.io/badge/Actix-000000?style=for-the-badge)
-![Tokio](https://img.shields.io/badge/Tokio-000000?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+<p align="center">
 
-### Blockchain
+<img src="https://skillicons.dev/icons?i=solidity"/>
 
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)
-![Anchor](https://img.shields.io/badge/Anchor-9945FF?style=for-the-badge)
-![Stellar](https://img.shields.io/badge/Stellar-000000?style=for-the-badge&logo=stellar&logoColor=white)
-![Soroban](https://img.shields.io/badge/Soroban-3E1BDB?style=for-the-badge)
-![Sui](https://img.shields.io/badge/Sui-6FBCF0?style=for-the-badge)
+</p>
 
 ---
 
-## GitHub Analytics
+## GitHub
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=E-Okelloh&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=E-Okelloh&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=E-Okelloh&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+## Activity
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=E-Okelloh&theme=tokyo-night&hide_border=true&area=true"/>
+
+</p>
+
+---
+
+## Current Mission
+
+```
+Building scalable financial rails.
+
+Contributing to open source.
+
+Engineering distributed systems.
+
+Advancing blockchain infrastructure.
+
+```
+
+---
+
+## Terminal
+
+```bash
+$ whoami
+
+Erick Okello
+
+Software Engineer
+
+Rust • Blockchain • Distributed Systems
+
+Building systems that move value.
+```
+
+---
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=E-Okelloh&style=flat-square&color=00F5FF"/>
+
+</p>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=E-Okelloh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=E-Okelloh&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+"Simple software is difficult software."
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=E-Okelloh&theme=tokyonight" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:050816,100:0B1020"/>
 
 </div>
-
----
-
-## 📊 Weekly Coding Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=E-Okelloh&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-
-</div>
-
----
-
-## Philosophy
-
-> Great engineering is invisible.
-> 
-> The best systems feel simple because the complexity was handled correctly.
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E293B,100:0F172A&height=120&section=footer"/>
-</div>
-
