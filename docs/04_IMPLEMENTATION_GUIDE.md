@@ -56,6 +56,7 @@ composition.
 | `docs/02_UI_ARCHITECTURE.md` | Component specifications | — | manual |
 | `docs/03_ENGINEERING_SPECIFICATION.md` | Engineering contract | — | manual |
 | `docs/04_IMPLEMENTATION_GUIDE.md` | This document | — | manual |
+| `docs/05_EXECUTION_PLAN.md` | Phased implementation workflow | — | manual |
 
 ---
 

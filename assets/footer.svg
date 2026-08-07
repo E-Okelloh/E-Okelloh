@@ -14,6 +14,7 @@
       --divider: #1D2638;
       --text: #F5F7FA;
       --muted: #8A98B5;
+      --accent: #00F5FF;
       --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
     }
     svg { font-family: var(--font); }

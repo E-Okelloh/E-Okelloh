@@ -325,7 +325,8 @@ E-Okelloh/
 │   ├── 01_VISION.md             ← this document
 │   ├── 02_UI_ARCHITECTURE.md    ← component specifications
 │   ├── 03_ENGINEERING_SPECIFICATION.md ← engineering contract
-│   └── 04_IMPLEMENTATION_GUIDE.md     ← system design & data flow
+│   ├── 04_IMPLEMENTATION_GUIDE.md     ← system design & data flow
+│   └── 05_EXECUTION_PLAN.md           ← phased implementation workflow
 │
 └── .github/
     ├── scripts/     ← generation utilities

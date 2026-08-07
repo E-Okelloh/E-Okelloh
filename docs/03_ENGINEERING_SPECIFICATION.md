@@ -55,7 +55,8 @@ E-Okelloh/
 │ ├── 01_VISION.md
 │ ├── 02_UI_ARCHITECTURE.md
 │ ├── 03_ENGINEERING_SPECIFICATION.md
-│ └── 04_IMPLEMENTATION_GUIDE.md
+│ ├── 04_IMPLEMENTATION_GUIDE.md
+│ └── 05_EXECUTION_PLAN.md
 
 ├── .github/
 

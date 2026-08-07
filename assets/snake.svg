@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" preserveAspectRatio="xMidYMid meet" aria-labelledby="snake-title snake-desc">
+  <!--
+    Component : snake
+    Purpose   : contribution snake placeholder — overwritten by snake.yml (Platane/snk)
+    Author    : gpos-bot
+    Version   : 1.0
+    Dependencies : github.com/Platane/snk v3
+  -->
+  <title id="snake-title">Contribution snake</title>
+  <desc id="snake-desc">Contribution activity rendered as a snake. Placeholder grid until the scheduled snake workflow first run.</desc>
+  <style>
+    :root {
+      --bg:       #050816;
+      --panel:    #0B1020;
+      --divider:  #1D2638;
+      --muted:    #8A98B5;
+      --accent:   #00F5FF;
+      --healthy:  #00FF9D;
+      --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+    }
+    svg { font-family: var(--font); }
+    .bg      { fill: var(--bg); }
+    .panel   { fill: var(--panel); }
+    .divider { fill: var(--divider); }
+    .muted   { fill: var(--muted); }
+    .accent  { fill: var(--accent); }
+    .healthy { fill: var(--healthy); }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1200" height="240"/>
+  <rect class="divider" x="48" y="0" width="1104" height="1"/>
+  <text class="muted" x="600" y="112" text-anchor="middle" font-size="13" letter-spacing="2">// CONTRIBUTION SNAKE — GENERATED AUTOMATICALLY</text>
+  <text class="muted" x="600" y="140" text-anchor="middle" font-size="13" letter-spacing="2">AWAITING FIRST SYNCHRONIZATION</text>
+  <rect class="healthy" x="600" y="156" width="4" height="16"/>
+</svg>
