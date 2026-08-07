@@ -53,7 +53,7 @@
     <text class="muted" x="84" y="162">Open Source</text>
     <text class="healthy" x="320" y="162">active</text>
 
-    <text class="muted" x="660" y="92">Status</text>
+    <text class="muted" x="660" y="92">System</text>
     <text class="healthy" x="848" y="92">healthy</text>
     <rect class="accent caret" x="848" y="76" width="6" height="24"/>
   </g>

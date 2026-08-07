@@ -51,10 +51,11 @@ E-Okelloh/
 
 ├── docs/
 
-│ ├── DESIGN.md
-│ ├── ARCHITECTURE.md
-│ ├── ENGINEERING_SPECIFICATION.md
-│ └── STYLE_GUIDE.md
+│ ├── 00_MASTER_BUILD_BRIEF.md
+│ ├── 01_VISION.md
+│ ├── 02_UI_ARCHITECTURE.md
+│ ├── 03_ENGINEERING_SPECIFICATION.md
+│ └── 04_IMPLEMENTATION_GUIDE.md
 
 ├── .github/
 

@@ -107,22 +107,30 @@ Height — 180–220px
 Purpose — The visual centerpiece. It tells visitors what kind of engineer this profile represents.
 
 ```
-                CLIENTS
-                   │
-                   ▼
-          PAYMENT GATEWAY
-                   │
-                   ▼
-       PAYMENT ORCHESTRATOR
-          ╱       │       ╲
-         ▼        ▼        ▼
-     STELLAR   BANK APIs   MOBILE MONEY
-          ╲       │       ╱
-            SETTLEMENT
-                   │
-                   ▼
+            CLIENTS
+               │
+               ▼
+          API GATEWAY
+               │
+               ▼
+        AUTHENTICATION
+               │
+               ▼
+         PAYMENT ROUTER
+        ╱      │        ╲
+   FRAUD        │      NOTIFICATION
+   ENGINE       │        SERVICE
+        ╲       ▼        ╱
+   STELLAR ←  ORCHESTRATOR → MOBILE MONEY
+        ╲       │        ╱
+        BANK APIS  │
+                SETTLEMENT
+                 │
+                 ▼
                LEDGER
 ```
+
+Secondary services — Stellar, Mobile Money, Bank APIs, Fraud Engine, Notification Service.
 
 Animation — Packets continuously move through the network. Packets travel smoothly, disappear, restart. Node pulses gently. Connection lines glow softly. Never distracting.
 
@@ -143,7 +151,7 @@ SERVICE
 STATUS
 ROLE
 STACK
-LINK
+REPOSITORY
 ```
 
 Design — Not cards. Not badges. Each deployment resembles a service definition. Separated by thin dividers.
@@ -171,7 +179,31 @@ Height — 220px
 
 ---
 
-# Component 06 — Live Metrics
+# Component 06 — Operations Panel
+
+Purpose — Live production operations summary. Sits on the dashboard after Capabilities.
+
+```
+OBSERVABILITY
+
+Latency            18 ms
+Availability       99.99%
+Services           05
+Environment        Production
+Version            v1.0.0
+Pipeline           Healthy
+Region             Global
+```
+
+Rules — Values render right-aligned against labels. All values are configurable in one
+`CONFIG` comment block inside `dashboard.svg`; dynamic fields (Environment, Version,
+Branch, Last Updated) are stamped by `update.yml`.
+
+Height — 200–240px
+
+---
+
+# Component 07 — Live Metrics
 
 Purpose — Display GitHub information without feeling like a GitHub widget.
 
@@ -183,7 +215,7 @@ Animation — Number fade only. No counting animations.
 
 ---
 
-# Component 07 — Terminal
+# Component 08 — Terminal
 
 Purpose — Reinforce engineering identity.
 
@@ -193,7 +225,7 @@ Infrastructure    running
 Payments          routing
 Blockchain        synchronized
 Open Source       active
-Status            healthy
+System            healthy
 ```
 
 Animation — Blinking cursor. Nothing else.
@@ -202,7 +234,7 @@ Height — 180px
 
 ---
 
-# Component 08 — Activity
+# Component 09 — Activity
 
 Purpose — Display GitHub activity.
 
@@ -212,7 +244,7 @@ No additional styling — GitHub widgets should inherit the dashboard aesthetic.
 
 ---
 
-# Component 09 — Footer
+# Component 10 — Footer
 
 Purpose — Provide a clean conclusion.
 
@@ -239,6 +271,8 @@ DEPLOYMENTS
 ↓
 CAPABILITIES
 ↓
+OPERATIONS PANEL
+↓
 METRICS
 ↓
 TERMINAL
@@ -263,6 +297,7 @@ network-line
 packet
 status-indicator
 deployment-item
+operations-root
 terminal-window
 footer-root
 ```
@@ -281,6 +316,7 @@ dashboard.svg
     Network
     Deployments
     Capabilities
+    Operations Panel
 
 terminal.svg
     contains
