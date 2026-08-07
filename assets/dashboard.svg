@@ -74,7 +74,7 @@
     <text class="accent" y="170" font-size="13" letter-spacing="3">// FINANCIAL INFRASTRUCTURE ENGINEER</text>
     <text class="text" y="246" font-size="56" font-weight="700" letter-spacing="6">ERICK OKELLO</text>
     <text class="muted" y="300" font-size="16" letter-spacing="1">BUILDING INFRASTRUCTURE THAT MOVES VALUE SECURELY AT GLOBAL SCALE.</text>
-    <rect class="accent caret" x="1064" y="286" width="12" height="18"/>
+    <rect class="accent caret" x="954" y="286" width="12" height="18"/>
   </g>
   <rect class="divider" x="0" y="348" width="1200" height="1"/>
   <rect class="accent scanline" x="0" y="345" width="180" height="4" opacity="0.5"/>

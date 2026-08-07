@@ -3,7 +3,7 @@
     Component : divider
     Purpose   : visually separate composed README bands
     Author    : Erick Okello
-    Version   : 1.2
+    Version   : 1.3
     Dependencies : none
   -->
   <title id="divider-title">Section divider</title>

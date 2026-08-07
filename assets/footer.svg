@@ -3,7 +3,7 @@
     Component : footer
     Purpose   : minimal closing statement
     Author    : Erick Okello
-    Version   : 1.2
+    Version   : 1.3
     Dependencies : none
   -->
   <title id="foot-title">End of transmission</title>

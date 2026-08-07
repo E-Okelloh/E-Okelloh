@@ -80,7 +80,7 @@ svg_head() {
     Component : $id
     Purpose   : generated from the GitHub API by generate-metrics.sh
     Author    : Erick Okello
-    Version   : 1.2
+    Version   : 1.3
     Dependencies : curl, jq
   -->
   <title id="${id}-title">$title</title>

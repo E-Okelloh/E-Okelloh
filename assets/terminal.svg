@@ -3,7 +3,7 @@
     Component : terminal
     Purpose   : systemctl-style session proving system state
     Author    : Erick Okello
-    Version   : 1.2
+    Version   : 1.3
     Dependencies : none
   -->
   <title id="term-title">Terminal — systemctl status</title>
@@ -55,6 +55,6 @@
 
     <text class="muted" x="660" y="92">System</text>
     <text class="healthy" x="848" y="92">healthy</text>
-    <rect class="accent caret" x="848" y="76" width="6" height="24"/>
+    <rect class="accent caret" x="918" y="76" width="8" height="24"/>
   </g>
 </svg>
