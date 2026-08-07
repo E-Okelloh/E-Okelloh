@@ -584,12 +584,15 @@ No raster images.
 
 # Accessibility
 
-Every SVG must have:
+Every SVG must
 
-* proper semantic meaning
-* readable contrast
-* respected reduced motion
-* sensible reading order
+* contain title
+* contain description
+* have readable contrast
+* remain understandable without animation
+* support screen readers
+
+No information should depend solely on color.
 
 ---
 
@@ -605,7 +608,7 @@ The finished profile should feel like software created by a product team at:
 * Datadog
 * Vercel
 
-A visitor should think
+A visitor should immediately think
 
 **This engineer builds infrastructure.**
 
@@ -621,7 +624,7 @@ Do not use templates.
 
 Do not copy existing GitHub profile designs.
 
-Build a cohesive operating system interface with custom SVG assets, subtle production-grade animations, modular architecture, reusable components, responsive layouts, automated GitHub workflows and software engineering-level code quality.
+Build a cohesive operating system interface with custom SVG assets, subtle production-grade animations, modular architecture, reusable components, responsive layouts, automated GitHub workflows and engineering-level code quality.
 
 Iterate on typography, spacing, animation timing, alignment and information hierarchy until the result feels like a real financial infrastructure dashboard rather than documentation.
 
