@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="48" viewBox="0 0 1200 48" role="img" preserveAspectRatio="xMidYMid meet" aria-labelledby="divider-title divider-desc">
+  <!--
+    Component : divider
+    Purpose   : visually separate composed README bands
+    Author    : Erick Okello
+    Version   : 1.2
+    Dependencies : none
+  -->
+  <title id="divider-title">Section divider</title>
+  <desc id="divider-desc">Thin divider with a central routing tick used between modules.</desc>
+  <style>
+    :root {
+      --bg: #050816;
+      --divider: #1D2638;
+      --accent: #00F5FF;
+      --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+    }
+    svg { font-family: var(--font); }
+
+    .bg      { fill: var(--bg); }
+    .divider { fill: var(--divider); }
+    .accent  { fill: var(--accent); }
+    .stroke  { stroke: var(--accent); }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1200" height="48"/>
+  <rect class="divider" x="48" y="23" width="1104" height="1"/>
+  <rect class="stroke" x="48" y="19" width="32" height="8" fill="none" stroke-width="1"/>
+  <circle class="accent" cx="600" cy="23.5" r="3"/>
+</svg>

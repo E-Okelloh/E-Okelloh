@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" preserveAspectRatio="xMidYMid meet" aria-labelledby="metrics-title metrics-desc">
+  <!--
+    Component : metrics
+    Purpose   : generated from the GitHub API by generate-metrics.sh
+    Author    : Erick Okello
+    Version   : 1.2
+    Dependencies : curl, jq
+  -->
+  <title id="metrics-title">Account metrics</title>
+  <desc id="metrics-desc">Account-level GitHub statistics: public repositories, followers, following, total stars, total forks, and data synchronization timestamp.</desc>
+  <style>
+    :root {
+      --bg: #050816;
+      --panel: #0B1020;
+      --accent: #00F5FF;
+      --text: #F5F7FA;
+      --muted: #8A98B5;
+      --divider: #1D2638;
+      --healthy: #00FF9D;
+      --warning: #FFB020;
+      --critical: #FF5C5C;
+      --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+    }
+    svg { font-family: var(--font); }
+
+    .bg      { fill: var(--bg); }
+    .panel   { fill: var(--panel); }
+    .text    { fill: var(--text); }
+    .muted   { fill: var(--muted); }
+    .accent  { fill: var(--accent); }
+    .healthy { fill: var(--healthy); }
+    .warning { fill: var(--warning); }
+    .divider { fill: var(--divider); }
+    .stroke-div { stroke: var(--divider); }
+
+    @keyframes load {
+      0% { transform: scaleX(0); }
+      45% { transform: scaleX(1); }
+      55% { transform: scaleX(1); }
+      100% { transform: scaleX(0); }
+    }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .load { transform-box: fill-box; transform-origin: left center; animation: load 3.6s ease-in-out infinite; }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow 1s ease both; }
+  </style>
+  <rect class="bg" x="0" y="0" width="1200" height="300"/>
+  <text class="accent" x="48" y="36" font-size="13" letter-spacing="2">// ACCOUNT METRICS</text>
+
+  <g class="metric">
+    <rect class="panel stroke-div" x="48" y="56" width="258" height="88" rx="8"/>
+    <text class="muted" x="68" y="84" font-size="13">PUBLIC REPOS</text>
+    <text class="accent" x="238" y="84" text-anchor="end" font-size="13">API</text>
+    <text class="text" x="68" y="122" font-size="20" font-weight="600">61</text>
+
+    <rect class="panel stroke-div" x="330" y="56" width="258" height="88" rx="8"/>
+    <text class="muted" x="350" y="84" font-size="13">FOLLOWERS</text>
+    <text class="accent" x="520" y="84" text-anchor="end" font-size="13">API</text>
+    <text class="text" x="350" y="122" font-size="20" font-weight="600">25</text>
+
+    <rect class="panel stroke-div" x="612" y="56" width="258" height="88" rx="8"/>
+    <text class="muted" x="632" y="84" font-size="13">FOLLOWING</text>
+    <text class="accent" x="802" y="84" text-anchor="end" font-size="13">API</text>
+    <text class="text" x="632" y="122" font-size="20" font-weight="600">4</text>
+
+    <rect class="panel stroke-div" x="894" y="56" width="258" height="88" rx="8"/>
+    <text class="muted" x="914" y="84" font-size="13">TOTAL STARS</text>
+    <text class="accent" x="1084" y="84" text-anchor="end" font-size="13">API</text>
+    <text class="text" x="914" y="122" font-size="20" font-weight="600">8</text>
+  </g>
+
+  <text class="muted" x="48" y="200" font-size="13">// TOTAL FORKS 1</text>
+  <text class="muted" x="1152" y="200" text-anchor="end" font-size="13">SOURCE: GITHUB API V3</text>
+
+  <rect class="divider" x="48" y="220" width="1104" height="3" rx="1.5"/>
+  <rect class="accent load" x="48" y="220" width="1104" height="3" rx="1.5" opacity="0.8"/>
+
+  <text class="muted" x="48" y="268" font-size="13">DATA SYNCED 06.08.26 23:56 UTC</text>
+  <text class="muted" x="1152" y="268" text-anchor="end" font-size="13">SNAPSHOT</text>
+</svg>

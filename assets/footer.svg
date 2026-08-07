@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" preserveAspectRatio="xMidYMid meet" aria-labelledby="foot-title foot-desc">
+  <!--
+    Component : footer
+    Purpose   : minimal closing statement
+    Author    : Erick Okello
+    Version   : 1.2
+    Dependencies : none
+  -->
+  <title id="foot-title">End of transmission</title>
+  <desc id="foot-desc">End of transmission. Erick Okello — building financial infrastructure.</desc>
+  <style>
+    :root {
+      --bg: #050816;
+      --divider: #1D2638;
+      --text: #F5F7FA;
+      --muted: #8A98B5;
+      --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+    }
+    svg { font-family: var(--font); }
+
+    .bg      { fill: var(--bg); }
+    .divider { fill: var(--divider); }
+    .text    { fill: var(--text); }
+    .muted   { fill: var(--muted); }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1200" height="240"/>
+  <rect class="divider" x="48" y="0" width="1104" height="1"/>
+
+  <text class="muted" x="600" y="100" text-anchor="middle" font-size="14" letter-spacing="4">END OF TRANSMISSION</text>
+  <text class="text" x="600" y="156" text-anchor="middle" font-size="32" font-weight="700" letter-spacing="4">ERICK OKELLO</text>
+  <text class="muted" x="600" y="190" text-anchor="middle" font-size="13" letter-spacing="2">BUILDING FINANCIAL INFRASTRUCTURE</text>
+</svg>

@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Contribution Snake
 
 on:
   schedule:
@@ -15,17 +15,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake SVGs
+      - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: E-Okelloh
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            assets/snake.svg?color_snake=00FF9D&color_dots=0B1020,13303C,1D5A66,00808F,00F5FF
 
-      - name: Deploy snake to output branch
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: output
-          folder: dist
-          clean: false
+      - name: Commit snake if changed
+        run: |
+          if [ -f assets/snake.svg ]; then
+            git config user.name "gpos-bot[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/snake.svg
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: refresh contribution snake"
+              git push
+            fi
+          fi

@@ -1,0 +1,406 @@
+# GitHub Profile Operating System (GPOS)
+
+> **Version:** 1.0
+> **Document:** Part 1 — Vision, Architecture & Design System
+> **Owner:** Erick Okello
+
+---
+
+# 1. Vision
+
+## Objective
+
+Design a GitHub profile that feels like an internal **Financial Infrastructure Control Center**, not a résumé.
+
+The profile should communicate engineering maturity through architecture, typography, layout, motion, and systems thinking.
+
+It must be immediately recognizable and impossible to confuse with common GitHub profile templates.
+
+---
+
+# 2. Problem Statement
+
+Most GitHub profiles follow the same pattern:
+
+- Large banner
+- Typing animation
+- Badge collection
+- Long "About Me" section
+- Tech stack logos
+- GitHub statistics
+- Contribution graph
+
+While visually appealing, these profiles fail to establish a memorable engineering identity.
+
+Visitors often leave remembering nothing beyond "another developer profile."
+
+---
+
+# 3. Solution
+
+Treat the GitHub profile as an **operating system dashboard**.
+
+The profile should resemble:
+
+- A production monitoring console
+- A financial infrastructure control center
+- A payment routing dashboard
+- A network operations interface
+
+Every component should reinforce the identity of an engineer building distributed financial systems.
+
+---
+
+# 4. Success Criteria
+
+A visitor should understand the following within five seconds:
+
+- This engineer builds infrastructure.
+- This engineer works on financial systems.
+- This engineer values simplicity over decoration.
+- This engineer understands systems thinking.
+- This profile is unlike any standard GitHub README.
+
+---
+
+# 5. Design Principles
+
+## Less Information
+
+Remove anything that doesn't improve understanding.
+
+Avoid unnecessary explanations.
+
+---
+
+## Function Before Decoration
+
+Every visual element must communicate information.
+
+If an element is purely decorative, remove it.
+
+## Engineering Over Marketing
+
+Avoid portfolio-style language.
+
+Avoid promotional copy.
+
+Write like production software.
+
+## Precision
+
+Spacing, alignment, typography, animation, and hierarchy must all feel deliberate.
+
+Nothing should appear accidental.
+
+## Consistency
+
+Every section should use the same spacing system, typography, color palette, and terminology.
+
+---
+
+# 6. Brand Identity
+
+## Name
+
+```
+ERICK OKELLO
+```
+
+## Title
+
+```
+Financial Infrastructure Engineer
+```
+
+## Mission
+
+```
+Building infrastructure that moves value securely at global scale.
+```
+
+Everything else in the profile exists to support these three statements.
+
+---
+
+# 7. Information Architecture
+
+The profile consists of the following modules.
+
+```
+Header
+
+↓
+
+System Status
+
+↓
+
+Network Topology
+
+↓
+
+Deployments
+
+↓
+
+Capabilities
+
+↓
+
+Metrics
+
+↓
+
+Terminal
+
+↓
+
+Activity
+
+↓
+
+Footer
+```
+
+No additional sections should be introduced without strong justification.
+
+---
+
+# 8. Layout System
+
+## Maximum Width
+
+```
+1200px
+```
+
+## Grid
+
+Use a responsive 12-column layout.
+
+## Horizontal Padding
+
+Desktop `48px`
+
+Tablet `24px`
+
+Mobile `16px`
+
+## Vertical Rhythm
+
+Use an 8px spacing scale.
+
+```
+8
+16
+24
+32
+48
+64
+```
+
+Do not introduce arbitrary spacing values.
+
+---
+
+# 9. Color System
+
+| Purpose | Color |
+|----------|---------|
+| Background | `#050816` |
+| Surface | `#0B1020` |
+| Primary Text | `#F5F7FA` |
+| Secondary Text | `#8A98B5` |
+| Accent | `#00F5FF` |
+| Divider | `#1D2638` |
+| Success | `#00FF9D` |
+| Warning | `#FFB020` |
+| Critical | `#FF5C5C` |
+
+## Rules
+
+- Use only one accent color.
+- Avoid gradients unless extremely subtle.
+- Prefer contrast over saturation.
+- Prioritize readability.
+
+---
+
+# 10. Typography
+
+## Primary Font
+
+JetBrains Mono
+
+## Secondary Font
+
+IBM Plex Mono
+
+## Font Sizes
+
+| Element | Size |
+|-----------|------|
+| Hero | 56px |
+| Section Heading | 24px |
+| Body | 16px |
+| Caption | 13px |
+
+Typography should be aligned to a consistent baseline.
+
+---
+
+# 11. Motion Language
+
+Animations should communicate system activity.
+
+Allowed animations:
+
+- Packet flow
+- Pulsing network nodes
+- Cursor blinking
+- Connection glow
+- Status refresh
+- Loading indicators
+
+Forbidden animations:
+
+- Floating cards
+- Rotating logos
+- Rainbow gradients
+- Fireworks
+- Confetti
+- Excessive transitions
+
+Animation should support the interface rather than distract from it.
+
+---
+
+# 12. Language Guidelines
+
+The interface should read like production software.
+
+Preferred terminology:
+
+```
+ONLINE
+ACTIVE
+ROUTING
+CONNECTED
+READY
+SYNCHRONIZED
+DEPLOYED
+HEALTHY
+```
+
+Avoid conversational language such as:
+
+```
+Hi there
+About Me
+Fun Facts
+Passionate Developer
+Tech Enthusiast
+Let's Connect
+```
+
+---
+
+# 13. Repository Structure
+
+```
+E-Okelloh/
+
+├── README.md
+│
+├── assets/          ← SVG interface modules (static, hand-authored)
+├── metrics/         ← SVG data panels (generated by CI)
+│
+├── docs/
+│   ├── DESIGN.md        ← this document
+│   ├── STYLE_GUIDE.md   ← implementation reference
+│   └── ARCHITECTURE.md  ← system design & data flow
+│
+└── .github/
+    ├── scripts/     ← generation utilities
+    └── workflows/
+        ├── snake.yml     ← contribution snake
+        ├── metrics.yml   ← regenerates metrics/*
+        └── update.yml    ← refreshes sync timestamps
+```
+
+Every file should have a single responsibility.
+
+---
+
+# 14. Runtime Model
+
+The README is **not** the interface.
+
+The README orchestrates the interface.
+
+Its responsibilities are limited to:
+
+- Loading SVG assets
+- Displaying GitHub statistics
+- Displaying contribution graphs
+- Displaying the contribution snake
+- Displaying dynamic metrics
+- Linking to repositories
+
+Business logic, layout, and presentation belong inside reusable SVG assets.
+
+---
+
+# 15. Accessibility
+
+Every SVG must include:
+
+- `<title>`
+- `<desc>`
+- Semantic grouping
+- Responsive `viewBox`
+- High contrast text
+- Screen-reader-friendly structure
+
+Information must never rely solely on color.
+
+---
+
+# 16. Performance
+
+The profile should load quickly.
+
+Guidelines:
+
+- Optimize SVG assets.
+- Minimize HTTP requests.
+- Reuse symbols where possible.
+- Avoid JavaScript.
+- Use SVG-native animations.
+
+---
+
+# 17. Definition of Done
+
+The project is complete only when:
+
+- The profile is instantly recognizable.
+- The interface communicates financial infrastructure.
+- Every component has a purpose.
+- Typography and spacing are consistent.
+- Motion is subtle and meaningful.
+- The profile remains readable with animations disabled.
+- A senior engineer would describe it as engineered rather than decorated.
+
+---
+
+# Guiding Principle
+
+Every design decision should answer the following question:
+
+> **Would this exist inside the control center of a real financial infrastructure platform?**
+
+If the answer is **yes**, keep it.
+
+If the answer is **no**, remove it.

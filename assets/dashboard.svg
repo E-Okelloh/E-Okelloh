@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2360" viewBox="0 0 1200 2360" role="img" preserveAspectRatio="xMidYMid meet" aria-labelledby="dash-title dash-desc">
+  <!--
+    Component : dashboard
+    Purpose   : compound control center — header, system status, network topology,
+                deployments, and capabilities
+    Author    : Erick Okello
+    Version   : 1.2
+    Dependencies : none
+  -->
+  <title id="dash-title">Financial Infrastructure Dashboard</title>
+  <desc id="dash-desc">Operational control center. Identity header, system status, payment routing topology with animated packets, deployment layer, and capabilities.</desc>
+
+  <style>
+    :root {
+      --bg:       #050816;
+      --panel:    #0B1020;
+      --accent:   #00F5FF;
+      --text:     #F5F7FA;
+      --muted:    #8A98B5;
+      --divider:  #1D2638;
+      --healthy:  #00FF9D;
+      --warning:  #FFB020;
+      --critical: #FF5C5C;
+      --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+    }
+    svg { font-family: var(--font); }
+
+    .bg      { fill: var(--bg); }
+    .panel   { fill: var(--panel); }
+    .text    { fill: var(--text); }
+    .muted   { fill: var(--muted); }
+    .accent  { fill: var(--accent); }
+    .healthy { fill: var(--healthy); }
+    .warning { fill: var(--warning); }
+    .critical{ fill: var(--critical); }
+    .divider { fill: var(--divider); }
+    .stroke-acc   { stroke: var(--accent); }
+    .stroke-panel { stroke: var(--panel); }
+    .stroke-div   { stroke: var(--divider); }
+    .stroke-ok    { stroke: var(--healthy); }
+
+    @keyframes fadein    { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes nodepulse {
+      0%,100% { opacity: 0.85; transform: scale(1); }
+      50%     { opacity: 1; transform: scale(1.03); }
+    }
+    @keyframes statusrefresh { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+    @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(1280px); } }
+    @keyframes packet {
+      0%   { transform: translate(0, 0); opacity: 0; }
+      12%  { opacity: 1; }
+      88%  { opacity: 1; }
+      100% { transform: translate(var(--dx), var(--dy)); opacity: 0; }
+    }
+    @keyframes blink-caret { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    .fadein  { animation: fadein 250ms ease both; }
+    .caret   { animation: blink-caret 700ms step-end infinite; }
+    .scanline{ animation: scan 4.5s linear infinite; }
+    .pulse-node { transform-box: fill-box; transform-origin: center;
+                 animation: nodepulse 3.4s ease-in-out infinite; }
+    .pulse-status { animation: statusrefresh 3.6s ease-in-out infinite; }
+    .packet  { will-change: transform; animation: packet var(--dur) ease-in-out infinite; }
+  </style>
+
+  <!-- ===================== layer: defs ===================== -->
+  <defs></defs>
+
+  <!-- ===================== background ===================== -->
+  <rect id="dashboard-root" class="bg" x="0" y="0" width="1200" height="2360"/>
+
+  <!-- ===================== header-root ===================== -->
+  <g id="header-root" class="fadein" text-anchor="middle">
+    <text class="accent" y="170" font-size="13" letter-spacing="3">// FINANCIAL INFRASTRUCTURE ENGINEER</text>
+    <text class="text" y="246" font-size="56" font-weight="700" letter-spacing="6">ERICK OKELLO</text>
+    <text class="muted" y="292" font-size="16" letter-spacing="1">BUILDING INFRASTRUCTURE THAT MOVES VALUE SECURELY AT GLOBAL SCALE.</text>
+    <rect class="accent caret" x="940" y="278" width="12" height="18"/>
+  </g>
+  <rect class="divider" x="0" y="348" width="1200" height="1"/>
+  <rect class="accent scanline" x="0" y="345" width="180" height="4" opacity="0.5"/>
+
+  <!-- ===================== status-root ===================== -->
+  <g id="status-root">
+    <text class="accent" x="48" y="410" font-size="13" letter-spacing="2">// SYSTEM STATUS</text>
+
+    <g font-size="16">
+      <rect class="healthy pulse-status" id="status-indicator" x="48" y="440" width="4" height="16"/>
+      <text class="muted" x="76" y="452">Infrastructure</text>
+      <text class="healthy" x="1152" y="452" text-anchor="end">ONLINE</text>
+
+      <rect class="healthy pulse-status" x="48" y="480" width="4" height="16" style="animation-delay:0.4s"/>
+      <text class="muted" x="76" y="492">Payments</text>
+      <text class="healthy" x="1152" y="492" text-anchor="end">ROUTING</text>
+
+      <rect class="healthy pulse-status" x="48" y="520" width="4" height="16" style="animation-delay:0.8s"/>
+      <text class="muted" x="76" y="532">Blockchain</text>
+      <text class="healthy" x="1152" y="532" text-anchor="end">ACTIVE</text>
+
+      <rect class="healthy pulse-status" x="48" y="560" width="4" height="16" style="animation-delay:1.2s"/>
+      <text class="muted" x="76" y="572">Open Source</text>
+      <text class="healthy" x="1152" y="572" text-anchor="end">RUNNING</text>
+
+      <rect class="healthy pulse-status" x="48" y="600" width="4" height="16" style="animation-delay:1.6s"/>
+      <text class="muted" x="76" y="612">Availability</text>
+      <text class="healthy" x="1152" y="612" text-anchor="end">READY</text>
+    </g>
+    <rect class="divider" x="48" y="640" width="1104" height="1"/>
+  </g>
+
+  <!-- ===================== network-root ===================== -->
+  <g id="network-root">
+    <text class="accent" x="48" y="686" font-size="13" letter-spacing="2">// NETWORK TOPOLOGY</text>
+
+    <!-- connections -->
+    <g class="connection" fill="none">
+      <line class="stroke-div" stroke-width="2" x1="600" y1="744" x2="600" y2="852"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="600" y1="744" x2="600" y2="852"/>
+      <line class="stroke-div" stroke-width="2" x1="600" y1="852" x2="600" y2="992"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="600" y1="852" x2="600" y2="992"/>
+      <line class="stroke-div" stroke-width="2" x1="600" y1="992" x2="215" y2="1100"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="600" y1="992" x2="215" y2="1100"/>
+      <line class="stroke-div" stroke-width="2" x1="600" y1="992" x2="600" y2="1100"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="600" y1="992" x2="600" y2="1100"/>
+      <line class="stroke-div" stroke-width="2" x1="600" y1="992" x2="985" y2="1100"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="600" y1="992" x2="985" y2="1100"/>
+      <line class="stroke-div" stroke-width="2" x1="215" y1="1100" x2="600" y2="1212"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="215" y1="1100" x2="600" y2="1212"/>
+      <line class="stroke-div" stroke-width="2" x1="600" y1="1100" x2="600" y2="1212"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="600" y1="1100" x2="600" y2="1212"/>
+      <line class="stroke-div" stroke-width="2" x1="985" y1="1100" x2="600" y2="1212"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="985" y1="1100" x2="600" y2="1212"/>
+      <line class="stroke-div" stroke-width="2" x1="600" y1="1212" x2="600" y2="1308"/>
+      <line class="stroke-acc" stroke-width="1" opacity="0.3" x1="600" y1="1212" x2="600" y2="1308"/>
+    </g>
+
+    <!-- animations: packets -->
+    <g>
+      <circle class="packet accent" r="3" cx="600" cy="744"  style="--dx:0px;--dy:108px;--dur:3s"/>
+      <circle class="packet accent" r="3" cx="600" cy="852"  style="--dx:0px;--dy:140px;--dur:2.4s;animation-delay:0.3s"/>
+      <circle class="packet accent" r="3" cx="600" cy="992"  style="--dx:385px;--dy:108px;--dur:3.2s;animation-delay:0.5s"/>
+      <circle class="packet accent" r="3" cx="600" cy="992"  style="--dx:0px;--dy:108px;--dur:2.6s;animation-delay:0.2s"/>
+      <circle class="packet accent" r="3" cx="600" cy="992"  style="--dx:-385px;--dy:108px;--dur:3.4s;animation-delay:0.7s"/>
+      <circle class="packet accent" r="3" cx="215" cy="1100" style="--dx:385px;--dy:112px;--dur:3.6s;animation-delay:0.4s"/>
+      <circle class="packet accent" r="3" cx="600" cy="1100" style="--dx:0px;--dy:112px;--dur:2.8s;animation-delay:0.1s"/>
+      <circle class="packet accent" r="3" cx="985" cy="1100" style="--dx:-385px;--dy:112px;--dur:3s;animation-delay:0.9s"/>
+      <circle class="packet accent" r="3" cx="600" cy="1212" style="--dx:0px;--dy:96px;--dur:2.2s;animation-delay:0.5s"/>
+    </g>
+
+    <!-- labels & nodes -->
+    <g font-size="13" text-anchor="middle">
+      <g class="node" id="network-node">
+        <circle class="panel stroke-div" r="24" cx="600" cy="744" stroke-width="1.5"/>
+        <circle class="accent" r="4" cx="600" cy="744"/>
+      </g>
+      <text class="muted" x="600" y="778">CLIENTS</text>
+
+      <g class="node">
+        <circle class="panel stroke-div" r="26" cx="600" cy="852" stroke-width="1.5"/>
+        <circle class="accent" r="5" cx="600" cy="852"/>
+      </g>
+      <text class="muted" x="600" y="894">PAYMENT GATEWAY</text>
+
+      <g class="node">
+        <circle class="panel stroke-acc" r="28" cx="600" cy="992" stroke-width="2"/>
+        <circle class="stroke-acc" r="28" cx="600" cy="992" stroke-width="1" opacity="0.4"/>
+        <circle class="accent" r="5" cx="600" cy="992"/>
+      </g>
+      <text class="text" font-size="16" x="600" y="1038">PAYMENT ORCHESTRATOR</text>
+
+      <g class="node">
+        <circle class="panel stroke-div" r="20" cx="215" cy="1100" stroke-width="1.5"/>
+        <circle class="accent" r="4" cx="215" cy="1100"/>
+      </g>
+      <text class="muted" x="215" y="1138">STELLAR</text>
+
+      <g class="node">
+        <circle class="panel stroke-div" r="20" cx="600" cy="1100" stroke-width="1.5"/>
+        <circle class="accent" r="4" cx="600" cy="1100"/>
+      </g>
+      <text class="muted" x="600" y="1138">BANK API</text>
+
+      <g class="node">
+        <circle class="panel stroke-div" r="20" cx="985" cy="1100" stroke-width="1.5"/>
+        <circle class="accent" r="4" cx="985" cy="1100"/>
+      </g>
+      <text class="muted" x="985" y="1138">MOBILE MONEY</text>
+
+      <g class="node">
+        <circle class="panel stroke-acc" r="26" cx="600" cy="1212" stroke-width="1.5"/>
+        <circle class="accent" r="5" cx="600" cy="1212"/>
+      </g>
+      <text class="muted" x="600" y="1254">SETTLEMENT</text>
+
+      <g class="node">
+        <circle class="panel stroke-div" r="24" cx="600" cy="1308" stroke-width="1.5"/>
+        <circle class="healthy" r="4" cx="600" cy="1308"/>
+      </g>
+      <text class="muted" x="600" y="1342">LEDGER</text>
+    </g>
+  </g>
+
+  <!-- ===================== deployment-root ===================== -->
+  <g id="deployment-root">
+    <text class="accent" x="48" y="1394" font-size="13" letter-spacing="2">// DEPLOYMENTS</text>
+    <g font-size="13">
+      <text class="text" x="76" y="1436" font-size="16" font-weight="600">AFRICAN PAYMENT AGGREGATOR</text>
+      <text class="muted" x="76" y="1462">STATUS</text>
+      <text class="healthy" x="1152" y="1462" text-anchor="end">ONLINE</text>
+      <text class="muted" x="76" y="1486">ROLE — Payment Routing &amp; Aggregation</text>
+      <text class="muted" x="76" y="1510">STACK — Rust · Axum · PostgreSQL · Redis · Stellar</text>
+      <text class="accent" x="1152" y="1510" text-anchor="end">LINK /pan-africa-pay</text>
+
+      <text class="text" x="76" y="1560" font-size="16" font-weight="600">PESATEXT</text>
+      <text class="muted" x="76" y="1586">STATUS</text>
+      <text class="healthy" x="1152" y="1586" text-anchor="end">ONLINE</text>
+      <text class="muted" x="76" y="1610">ROLE — SMS Payment Interface</text>
+      <text class="muted" x="76" y="1634">STACK — "(unreleased)"</text>
+      <text class="muted" x="1152" y="1634" text-anchor="end">LINK — PENDING</text>
+      <rect class="divider" x="76" y="1652" width="1048" height="1"/>
+
+      <text class="text" x="76" y="1684" font-size="16" font-weight="600">SEP-41 TOKEN</text>
+      <text class="muted" x="76" y="1710">STATUS</text>
+      <text class="healthy" x="1152" y="1710" text-anchor="end">ONLINE</text>
+      <text class="muted" x="76" y="1734">ROLE — Settlement Token Standard</text>
+      <text class="muted" x="76" y="1758">STACK — Rust · Stellar · Soroban</text>
+      <text class="accent" x="1152" y="1758" text-anchor="end">LINK /Sep41-token</text>
+      <rect class="divider" x="76" y="1776" width="1048" height="1"/>
+
+      <text class="text" x="76" y="1808" font-size="16" font-weight="600">NO LOSS AUCTION</text>
+      <text class="muted" x="76" y="1834">STATUS</text>
+      <text class="healthy" x="1152" y="1834" text-anchor="end">ONLINE</text>
+      <text class="muted" x="76" y="1858">ROLE — Auction Protocol</text>
+      <text class="muted" x="76" y="1882">STACK — TypeScript · Move</text>
+      <text class="accent" x="1152" y="1882" text-anchor="end">LINK /No_Loss_Auction_Protocol</text>
+      <rect class="divider" x="76" y="1900" width="1048" height="1"/>
+
+      <text class="text" x="76" y="1932" font-size="16" font-weight="600">AI MEETING ASSISTANT</text>
+      <text class="muted" x="76" y="1958">STATUS</text>
+      <text class="healthy" x="1152" y="1958" text-anchor="end">ONLINE</text>
+      <text class="muted" x="76" y="1982">ROLE — Meeting Automation &amp; Summarization</text>
+      <text class="muted" x="76" y="2006">STACK — Python · LLM</text>
+      <text class="accent" x="1152" y="2006" text-anchor="end">LINK /AI_Meeting_Assistant</text>
+      <rect class="divider" x="76" y="2024" width="1048" height="1"/>
+    </g>
+  </g>
+
+  <!-- ===================== capabilities-root ===================== -->
+  <g id="capabilities-root">
+    <text class="accent" x="48" y="2078" font-size="13" letter-spacing="2">// CAPABILITIES</text>
+    <g>
+      <text class="text" x="76" y="2114" font-size="16" font-weight="600">LANGUAGES</text>
+      <text class="muted" x="76" y="2146" font-size="13">Rust</text>
+      <text class="muted" x="76" y="2174" font-size="13">Python</text>
+      <text class="muted" x="76" y="2202" font-size="13">TypeScript</text>
+
+      <text class="text" x="456" y="2114" font-size="16" font-weight="600">BLOCKCHAIN</text>
+      <text class="muted" x="456" y="2146" font-size="13">Stellar</text>
+      <text class="muted" x="456" y="2174" font-size="13">Soroban</text>
+      <text class="muted" x="456" y="2202" font-size="13">Solana</text>
+      <text class="muted" x="456" y="2230" font-size="13">Move</text>
+
+      <text class="text" x="836" y="2114" font-size="16" font-weight="600">SYSTEMS</text>
+      <text class="muted" x="836" y="2146" font-size="13">PostgreSQL</text>
+      <text class="muted" x="836" y="2174" font-size="13">Redis</text>
+      <text class="muted" x="836" y="2202" font-size="13">Docker</text>
+      <text class="muted" x="836" y="2230" font-size="13">Kubernetes</text>
+      <text class="muted" x="836" y="2258" font-size="13">Linux</text>
+    </g>
+  </g>
+
+  <!-- ===================== foreground ===================== -->
+  <text class="muted" x="48" y="2300" font-size="13">// GPOS v1.2 — LAST SYNC {{LAST_SYNC}} UTC</text>
+  <rect class="divider" x="0" y="2320" width="1200" height="1"/>
+</svg>

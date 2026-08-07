@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" preserveAspectRatio="xMidYMid meet" aria-labelledby="languages-title languages-desc">
+  <!--
+    Component : languages
+    Purpose   : generated from the GitHub API by generate-metrics.sh
+    Author    : Erick Okello
+    Version   : 1.2
+    Dependencies : curl, jq
+  -->
+  <title id="languages-title">Language profile</title>
+  <desc id="languages-desc">Distribution of languages across public repositories, computed from GitHub API repository data. Each row shows the language, percentage and a proportional bar.</desc>
+  <style>
+    :root {
+      --bg: #050816;
+      --panel: #0B1020;
+      --accent: #00F5FF;
+      --text: #F5F7FA;
+      --muted: #8A98B5;
+      --divider: #1D2638;
+      --healthy: #00FF9D;
+      --warning: #FFB020;
+      --critical: #FF5C5C;
+      --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+    }
+    svg { font-family: var(--font); }
+
+    .bg      { fill: var(--bg); }
+    .panel   { fill: var(--panel); }
+    .text    { fill: var(--text); }
+    .muted   { fill: var(--muted); }
+    .accent  { fill: var(--accent); }
+    .healthy { fill: var(--healthy); }
+    .warning { fill: var(--warning); }
+    .divider { fill: var(--divider); }
+    .stroke-div { stroke: var(--divider); }
+
+    @keyframes load {
+      0% { transform: scaleX(0); }
+      45% { transform: scaleX(1); }
+      55% { transform: scaleX(1); }
+      100% { transform: scaleX(0); }
+    }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .load { transform-box: fill-box; transform-origin: left center; animation: load 3.6s ease-in-out infinite; }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow 1s ease both; }
+  </style>
+  <rect class="bg" x="0" y="0" width="1200" height="300"/>
+  <text class="accent" x="48" y="36" font-size="13" letter-spacing="2">// LANGUAGE PROFILE</text>
+
+  <g class="metric">
+
+    <circle cx="72" cy="77" r="4" fill="#DEA584"/>
+    <text class="text" x="88" y="84" font-size="16">Rust</text>
+    <text class="muted" x="272" y="84" text-anchor="end" font-size="13">28%</text>
+    <rect class="divider" x="300" y="74" width="640" height="6" rx="3"/>
+    <rect class="accent grow" x="300" y="74" width="640.0" height="6" rx="3" opacity="0.85" style="animation-delay:0.00s"/>
+    <circle cx="72" cy="113" r="4" fill="#3178C6"/>
+    <text class="text" x="88" y="120" font-size="16">TypeScript</text>
+    <text class="muted" x="272" y="120" text-anchor="end" font-size="13">18%</text>
+    <rect class="divider" x="300" y="110" width="640" height="6" rx="3"/>
+    <rect class="accent grow" x="300" y="110" width="407.3" height="6" rx="3" opacity="0.85" style="animation-delay:0.08s"/>
+    <circle cx="72" cy="149" r="4" fill="#7D9AF8"/>
+    <text class="text" x="88" y="156" font-size="16">Move</text>
+    <text class="muted" x="272" y="156" text-anchor="end" font-size="13">15%</text>
+    <rect class="divider" x="300" y="146" width="640" height="6" rx="3"/>
+    <rect class="accent grow" x="300" y="146" width="349.1" height="6" rx="3" opacity="0.85" style="animation-delay:0.16s"/>
+    <circle cx="72" cy="185" r="4" fill="#8A98B5"/>
+    <text class="text" x="88" y="192" font-size="16">OTHER</text>
+    <text class="muted" x="272" y="192" text-anchor="end" font-size="13">15%</text>
+    <rect class="divider" x="300" y="182" width="640" height="6" rx="3"/>
+    <rect class="accent grow" x="300" y="182" width="349.1" height="6" rx="3" opacity="0.85" style="animation-delay:0.24s"/>
+    <circle cx="72" cy="221" r="4" fill="#3776AB"/>
+    <text class="text" x="88" y="228" font-size="16">Python</text>
+    <text class="muted" x="272" y="228" text-anchor="end" font-size="13">15%</text>
+    <rect class="divider" x="300" y="218" width="640" height="6" rx="3"/>
+    <rect class="accent grow" x="300" y="218" width="349.1" height="6" rx="3" opacity="0.85" style="animation-delay:0.32s"/>
+    <circle cx="72" cy="257" r="4" fill="#F7DF1E"/>
+    <text class="text" x="88" y="264" font-size="16">JavaScript</text>
+    <text class="muted" x="272" y="264" text-anchor="end" font-size="13">8%</text>
+    <rect class="divider" x="300" y="254" width="640" height="6" rx="3"/>
+    <rect class="accent grow" x="300" y="254" width="174.5" height="6" rx="3" opacity="0.85" style="animation-delay:0.40s"/>
+  </g>
+
+  <text class="muted" x="48" y="288" font-size="13">// BASED ON PUBLIC REPOSITORIES | N=39</text>
+</svg>

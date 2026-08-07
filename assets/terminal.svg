@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" preserveAspectRatio="xMidYMid meet" aria-labelledby="term-title term-desc">
+  <!--
+    Component : terminal
+    Purpose   : systemctl-style session proving system state
+    Author    : Erick Okello
+    Version   : 1.2
+    Dependencies : none
+  -->
+  <title id="term-title">Terminal — systemctl status</title>
+  <desc id="term-desc">Terminal session: systemctl status erick. Infrastructure running, payments routing, blockchain synchronized, open source active, overall status healthy. Blinking cursor.</desc>
+  <style>
+    :root {
+      --bg: #050816;
+      --panel: #0B1020;
+      --divider: #1D2638;
+      --text: #F5F7FA;
+      --muted: #8A98B5;
+      --healthy: #00FF9D;
+      --accent: #00F5FF;
+      --font: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+    }
+    svg { font-family: var(--font); }
+
+    .bg      { fill: var(--bg); }
+    .panel    { fill: var(--panel); }
+    .divider  { fill: var(--divider); }
+    .text     { fill: var(--text); }
+    .muted    { fill: var(--muted); }
+    .healthy  { fill: var(--healthy); }
+    .accent   { fill: var(--accent); }
+    .stroke-div { stroke: var(--divider); }
+
+    @keyframes blink-caret { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .caret { animation: blink-caret 700ms step-end infinite; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1200" height="180"/>
+  <rect class="panel" x="48" y="16" width="1104" height="156" rx="8"/>
+  <rect class="stroke-div" x="48" y="16" width="1104" height="156" rx="8" fill="none"/>
+
+  <g font-size="16">
+    <text class="text" x="84" y="64">$ systemctl status erick</text>
+
+    <text class="muted" x="84" y="92">Infrastructure</text>
+    <text class="healthy" x="320" y="92">running</text>
+
+    <text class="muted" x="84" y="116">Payments</text>
+    <text class="healthy" x="320" y="116">routing</text>
+
+    <text class="muted" x="84" y="140">Blockchain</text>
+    <text class="healthy" x="320" y="140">synchronized</text>
+
+    <text class="muted" x="84" y="162">Open Source</text>
+    <text class="healthy" x="320" y="162">active</text>
+
+    <text class="muted" x="660" y="92">Status</text>
+    <text class="healthy" x="848" y="92">healthy</text>
+    <rect class="accent caret" x="848" y="76" width="6" height="24"/>
+  </g>
+</svg>
